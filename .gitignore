@@ -1,0 +1,46 @@
+# General system files
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+*.egg-info/
+
+# Rust (if used for optimizations)
+target/
+Cargo.lock
+
+# C++ (if used for optimizations)
+*.o
+*.a
+*.out
+*.so
+*.exe
+*.dll
+*.dSYM/
+build/
+cmake-build-debug/
+
+# Model files & datasets
+models/
+*.pth
+*.h5
+*.onnx
+
+# Video files (optional)
+*.mp4
+*.mkv
+*.avi
+*.mov
+output_videos/
+
+# Virtual environment
+.vscode/
+.idea/
